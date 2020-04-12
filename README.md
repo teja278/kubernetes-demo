@@ -10,7 +10,7 @@ Script name - check_replication
 
 Task 3 - Run the following command in the k8s folder
 `kubectl apply -f .`
- 1.  Set up (in kubernetes/minikube) 2 pods with a java example app:https://github.com/TechPrimers/docker-mysql-spring-boot-example
+ 1.  Set up (in kubernetes/minikube) 2 pods with a java example app from https://github.com/TechPrimers/docker-mysql-spring-boot-example
  - Built image for the source code of the example and pushed to the repo teja278/users-mysql 
  - Created a deployment config named users-api to deploy the image.
  
